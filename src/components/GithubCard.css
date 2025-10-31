@@ -1,0 +1,77 @@
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #2563eb;
+}
+
+.username {
+  color: #555;
+  margin-top: 4px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label {
+  color: #777;
+  font-size: 14px;
+}
+
+.joined {
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.joined span {
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.profile-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.profile-btn:hover {
+  background-color: #1d4ed8;
+}
