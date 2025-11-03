@@ -86,7 +86,7 @@ h1 {
 
 .form button {
   padding: 12px 20px;
-  background-color: #2563eb;
+  background-color:#055d1a;
   color: white;
   border: none;
   border-radius: 0 25px 25px 0;
@@ -96,7 +96,7 @@ h1 {
 }
 
 .form button:hover {
-  background-color: #1d4ed8;
+  background-color: #055d1a;
 }
 
 .error {
